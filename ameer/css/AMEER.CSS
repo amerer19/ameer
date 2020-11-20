@@ -1,0 +1,95 @@
+* {
+	padding: o;
+	margin: o;
+}
+
+body {
+	background-color: rgb(46, 171, 180);
+	background-image: url(/images/back-img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100%;
+}
+.container {
+	width: 75vw;
+	height: 100vh;
+
+	margin: 0 auto;
+}
+nav {
+	border: 1px solid rgb(17, 172, 233);
+	width: 100%;
+}
+
+li {
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+}
+.logo img {
+	float: left;
+	width: 180px;
+	height: 120px;
+}
+
+.nav-bar {
+	float: right;
+}
+.nav-bar ul li {
+	float: left;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	list-style-type: none;
+	padding: 19px;
+	margin: 0 10px;
+	background-color: tomato;
+	transition: all .5s ease-out;
+	border-radius: 16px;
+}
+.nav-bar ul li:hover {
+	background-color: wheat;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.hero-img img {
+	margin: 10px 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	transition: all .5s ease-out;
+}
+.hero-img img:hover {
+	border-radius: 100px;
+}
+.services {
+	color: black;
+	font-size: 20px;
+	float: left;
+}
+.service {
+	text-align: right;
+	color: black;
+	font-size: 20px;
+}
+small {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+	text-align: center;
+	color: tomato;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 40pxpx;
+}
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-footer {
+	text-align: center;
+	color: tomato;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 40pxpx;
+}
